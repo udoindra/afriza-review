@@ -1,9 +1,18 @@
 ****
+
 <b>TITLE:</b>
-KISAH MURAM DI RESTORAN CEPAT SAJI
+
+SELVAKUMAR KNEW BETTER
+
 <b>AUTHOR:</b>
-Bamby Cahyadi
+
+Virginia Kroll
+
+<b>ILUSTRATOR</b>
+Xiaojun Li
 <b>PUBLISHER:</b>
-PT. GRAMEDIA PUSTAKA UTAMA
+
+Shen’s Books, Walnut Creek, California (Printed in China)
 ****
-<img border="1" src="images/revue.jpg" width="100" height="120">
+
+<img border="1" src="images/coverbuku.jpg" width="120" height="166">
