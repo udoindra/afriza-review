@@ -105,6 +105,12 @@ border-bottom:1px solid white;
   color: #ff0;
   font: 3em Times, serif;
 }
+
+.figure {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
   
 #copyright { 
   clear: both;
