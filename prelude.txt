@@ -7,9 +7,9 @@ Edition 002 (July 2013) has arrive!
 </h2>
 <h3>
 <ul>
-<li>Book Review by Agnes Bemoe</li>
-<li>Poems by Udo Indra</li>
-<li>Ardani Rafiza going religious on his Soponyono Manuscript series this month (the Ramadhan effect?)</li>
+<li><a href="revue.php">Book Review</a> by Agnes Bemoe</li>
+<li><a href="puisi.php">Poems</a> by Udo Indra</li>
+<li>Ardani Rafiza going religious on his <a href="news.php">Soponyono Manuscript</a> series this month (the Ramadhan effect?)</li>
 <li>plus more updates each week for the whole month!</li>
 </ul>
 So we bid you: to Read and Share the Joy...
