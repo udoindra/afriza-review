@@ -1,0 +1,48 @@
+html { 
+background: #ffffee url('images/wood-planks.jpg'); 
+padding: 20px 80px 80px;
+}
+
+body {
+ background: #ffffcc; 
+ font: "Trebuchet MS", Helvetica, Verdana, sans-serif; 
+ width: 800px;
+ border-left: 2px solid #000;
+}
+
+#masthead {
+  margin: 0;
+  width: 800px;
+  height: 200px;
+  background: #ffffee url('images/masthead.jpg'); 
+}
+
+#edition {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 5px 20px 4px 20px;
+  background: #ffffee;
+  text-align: right;
+  font: 20px "Arial", sans-serif;
+}
+
+#contains {
+  background: #ffffee;
+  width: 760px;
+  padding: 20px 20px;
+  font: 12px "Arial", sans-serif;
+}
+
+#clicky {
+  clear: both;
+  text-align: center;
+}
+
+#copyright { 
+  clear: both;
+  text-align: right;
+  font-size: 80%;
+  color: #888;
+  padding-top: 15px; 
+  background: transparent url(images/footerline.gif) 100% 0 no-repeat; 
+}

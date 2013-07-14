@@ -41,16 +41,6 @@ echo "<p>".fgets($FP)."</p>";
 }
 fclose($FP);
 ?>
-<hr/>
-<?php
-$FP = fopen('news.txt','r');
-while(!feof($FP)) 
-{
-echo fgets($FP)."<br/>"; 
-}
-fclose($FP);
-?>
-
 <p>&nbsp;</p>
  <div align='center'><a href='http://www.hit-counts.com'><img src='http://www.hit-counts.com/counter.php?t=MTI1NTM1MQ==' border='0' alt='Visitor Counter'></a><BR><a href='http://www.hit-counts.com'>Visitor Counter</a></div> 
  
@@ -66,9 +56,7 @@ fclose($FP);
 <h3><u>UPDATES</u></h3>
 <script type="text/javascript" src="http://app.feed.informer.com/digest3/N2HBQEWUAK.js"></script>
 <noscript><a href="http://app.feed.informer.com/digest3/N2HBQEWUAK.html">Click for &quot;the AfRev Digest&quot;.</a>
-Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
-
-</div>
+Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript></div>
 
 <div id="tagline">
 <p>the <br/>
