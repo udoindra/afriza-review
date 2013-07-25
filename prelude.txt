@@ -1,4 +1,4 @@
-PRELUDE
+﻿PRELUDE
 <h1>July 2013.</h1>
 <h2>Goodbye June, Hello July!
 Edition 001 had moved to archives
@@ -19,12 +19,7 @@ So we bid you: to Read and Share the Joy...
 <i>The Afriza Review.</i>
 </h3>
 <hr/>
-<table>
-<td>
-<img border="1" src="images/agnes.jpg" width="250" height="373">
-</td>>
-<td>
-<i>"...Menurut saya, masalah biasanya dihadapi dengan dua cara: FIGHT atau FLY. Kelihatannya ada yang memilih jalan lari dari masalah, kemudian membangun setinggi-tingginya tembok pembenaran berupa keluhan dan rengekan. Lebih gampang, tinggal tunjuk hidung ke pihak lain sebagai penyebab. Dan dengan demikian, kita terbebas dari tanggung jawab atas kegagalan kita..."</i>
---The above sentences is an excerpt from <b>Agnes Bemoe's</b> blog (www.abemoe.blogspot.com) where the text and photograph on the left is taken from.--  
-</td>
-</table>
+
+<img src="images/page1-anim.gif" width="279" height="400" alt="the person of our next interview"  /> 
+
+<h2>Be prepared to read our interview with the person behind great poetical tunes!<br/>Right here on August!</h2>

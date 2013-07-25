@@ -1,12 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>the Afriza Review</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
 
+</head>
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 <body>
 
 <div id="branding">
@@ -33,30 +34,26 @@ the JOY...<br />
 
 <div id="main-content" align="justify">
 <?php
-$FP = fopen('prelude.txt','r');
-echo "<h3>".fgets($FP)."</h3>";
-while(!feof($FP)) 
-{
-echo "<p>".fgets($FP)."</p>"; 
-}
-fclose($FP);
+
+// Make sure you are using a correct path here.
+
+$ckeditor = new CKEditor();
+$ckeditor->basePath = '/ckeditor/';
+$ckeditor->config['filebrowserBrowseUrl'] = '/ckfinder/ckfinder.html';
+$ckeditor->config['filebrowserImageBrowseUrl'] = '/ckfinder/ckfinder.html?type=Images';
+$ckeditor->config['filebrowserFlashBrowseUrl'] = '/ckfinder/ckfinder.html?type=Flash';
+$ckeditor->config['filebrowserUploadUrl'] = '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files';
+$ckeditor->config['filebrowserImageUploadUrl'] = '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images';
+$ckeditor->config['filebrowserFlashUploadUrl'] = '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash';
+$ckeditor->editor('CKEditor1');
+
 ?>
-<p>&nbsp;</p>
- <div align='center'><a href='http://www.hit-counts.com'><img src='http://www.hit-counts.com/counter.php?t=MTI1NTM1MQ==' border='0' alt='Visitor Counter'></a><BR><a href='http://www.hit-counts.com'>Visitor Counter</a></div> 
- 
 </div>
 
 <ul id="navigation">
 <li class="current">Home </li>
 <li><a href="/forum/">The Forum</a></li>
 </ul>
-
-<div id="navigatwo">
-<p>&nbsp;</p>
-<h3><u>UPDATES</u></h3>
-<script type="text/javascript" src="http://app.feed.informer.com/digest3/N2HBQEWUAK.js"></script>
-<noscript><a href="http://app.feed.informer.com/digest3/N2HBQEWUAK.html">Click for &quot;the AfRev Digest&quot;.</a>
-Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript></div>
 
 <div id="tagline">
 <p>the <br/>

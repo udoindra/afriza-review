@@ -9,7 +9,8 @@
 
 <body>
 <div id="masthead"></div>
-<div id="edition">Readers' Blog. Edition 002, July 2013</div>
+<div id="edition">
+<a href="index.php">Home</a> | Readers' Blog</div>
 
 <div id="contains">
 <div>

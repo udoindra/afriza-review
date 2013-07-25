@@ -1,0 +1,31 @@
+PRELUDE
+<h1>August 2013.</h1>
+<h2>Goodbye July, Hello August!
+Edition 002 had moved to archives
+Edition 003 has arrive!
+<em>CONTENT OF EDITION 003:</em>
+</h2>
+<h3>
+<ul>
+<li><a href="revue.php">Book Review</a> by Udo Indra</li>
+<li><a href="puisi.php">Poems</a> by Cecep Syamsul Hari</li>
+<li>AR <a href="intervue.php">Interview</a>: Ari KPiN
+<li>Ardani Rafiza going english on his <a href="news.php">Soponyono Manuscript</a> series this month </li>
+<li>plus more updates each week for the whole month!</li>
+</ul>
+So we bid you: to Read and Share the Joy...
+
+ 
+ 
+<i>The Afriza Review.</i>
+</h3>
+<hr/>
+<table>
+<td>
+<img src="intervue.jpg" width="279" height="400" alt="the person of our interview" class="figure" /> 
+</td>
+<td>
+<h2>"Social media is like two headed sword, let's just leave it at that..."<br/>
+--Ari KPiN on the interview--</h2>
+</td>
+</table>

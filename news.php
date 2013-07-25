@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -32,6 +32,11 @@ the JOY...<br />
 </div>
 
 <div id="main-content" align="justify">
+<table style="background: #ffffff url('images/blocknote.gif') repeat-y;">
+<td width="25%">
+&nbsp;
+</td>
+<td width="75%">
 <?php
 $FP = fopen('blog.txt','r');
 echo "<h2>".fgets($FP)."</h2>";
@@ -41,6 +46,8 @@ echo "<p>".fgets($FP)."</p>";
 }
 fclose($FP);
 ?>
+</td>
+</table>
 </div>
 
 <ul id="navigation">
@@ -51,7 +58,6 @@ fclose($FP);
 <div id="navigatwo">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h3><u>UPDATES</u></h3>
 <?php
 $FP = fopen('news.txt','r');
 while(!feof($FP)) 

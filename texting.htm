@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+<title>the AfRev Editor</title>
+<script type="text/javascript" src="ckeditor/ckeditor.js">
+</script>
+
+<link href="ckeditor/content.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<h1>The Afriza Review Blog Editor</h1>
+<textarea name="posting" id="posting" cols="20">
+Write your blog here...
+</textarea>
+ <script type="text/javascript">
+
+	var editor = CKEDITOR.replace('posting');
+
+</script>
+<br/>
+<p>Push 'Format' before posting...</p>
+<script type="text/javascript">
+function formatTeks()
+{
+  var editor = CKEDITOR.instances.posting;
+  T=editor.getData();
+  document.getElementById("myTextarea").value=T;
+}
+</script> 
+<br>
+<form enctype="multipart/form-data" action="process.php" method="POST">
+ <textarea name="myTextarea" id="myTextarea" cols="40" rows="1"></textarea>
+ <button type="button" onclick="formatTeks()">Format</button>
+ <input type="submit" value="Post" />
+</form>
+ 
+</body>
+</html>

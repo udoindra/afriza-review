@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -41,6 +41,10 @@ echo "<p>".fgets($FP)."</p>";
 }
 fclose($FP);
 ?>
+
+<object height="50" width="100" data="media/arikpin_remembrance.mp3"></object>
+<p><i>If your browser support playing mp3 sound you will hear one of our favorite Ari KPiN poetry musicalization that is based from the Indonesian poetry lyrics "Kenang-Kenangan" that was written by Cecep Syamsul Hari. Translated in English by Harry Aveling & Dr. Dewi Candraningrum.</i>
+</p> 
 </div>
 
 <ul id="navigation">

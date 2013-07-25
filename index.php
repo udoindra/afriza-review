@@ -32,6 +32,11 @@ the JOY...<br />
 </div>
 
 <div id="main-content" align="justify">
+<table style="background: #ffffff url('images/blocknote.gif') repeat-y;">
+<td width="20%">
+&nbsp;
+</td>
+<td width="80%">
 <?php
 $FP = fopen('prelude.txt','r');
 echo "<h3>".fgets($FP)."</h3>";
@@ -41,15 +46,27 @@ echo "<p>".fgets($FP)."</p>";
 }
 fclose($FP);
 ?>
+</td>
+</table>
 <hr/>
-<?php
-$FP = fopen('news.txt','r');
-while(!feof($FP)) 
-{
-echo fgets($FP)."<br/>"; 
-}
-fclose($FP);
-?>
+<div style="border:1px #000000 solid;padding:3px;background-color:#FFFFFF;width:350px">
+	<a href="http://www.thefreedictionary.com/_/WoD/png-click.aspx?t=quote" target="_top">
+	<img border="0" src="http://www.thefreedictionary.com/_/!quote!350!1.png" width="350" /></a>
+</div>
+<br/>
+
+<!-------Do not change below this line------->
+<div align="right">
+<table>
+<td>
+<h2>...imagine the possibilities of what your words can reach. So, reach out...</h2>
+</td>
+<td>
+<iframe align="center" src="http://www.calendarlabs.com/calendars/web-content/calendar.php?cid=1002&uid=571667053&c=22&l=en&cbg=FFFFFF&cfg=009900&hfg=009900&hfg1=009900&ct=60&cb=0&cbc=009900&cf=verdana&cp=bottom&sw=1&hp=t&ib=1&ibc=5C0201&i=images/green-apple.jpg" width="183" height="373" marginwidth=0 marginheight=0 frameborder=no scrolling=no allowtransparency='true'>Loading...</iframe>
+</td>
+</table>
+</div>
+<!-------Do not change above this line-------> 
 
 <p>&nbsp;</p>
  <div align='center'><a href='http://www.hit-counts.com'><img src='http://www.hit-counts.com/counter.php?t=MTI1NTM1MQ==' border='0' alt='Visitor Counter'></a><BR><a href='http://www.hit-counts.com'>Visitor Counter</a></div> 
